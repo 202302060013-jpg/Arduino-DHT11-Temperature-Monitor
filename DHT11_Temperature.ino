@@ -6,7 +6,7 @@
 DHT dht(DHTPIN, DHTTYPE);
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(2000);
   Serial.println("DHT11 Temperature and Humidity Monitor");
   dht.begin();
 }
